@@ -1,0 +1,41 @@
+/* AddColleague.css */
+
+.add-colleague-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-colleague-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-colleague-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .add-colleague-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .add-colleague-container button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-colleague-container button:hover {
+    background-color: #0056b3;
+  }
+  

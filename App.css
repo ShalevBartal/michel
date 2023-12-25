@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 10px 0; /* Reduced padding */
+}
+
+.App-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-nav li {
+  margin: 0 5px; /* Reduced margin for less space between items */
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 0.9em; /* Reduced font size */
+  padding: 5px 10px; /* Padding for better touch area */
+  border-radius: 5px; /* Optional: for rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.App-link:hover {
+  background-color: #61dafb; /* Background color on hover */
+  color: #fff; /* Text color on hover */
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .App-nav li {
+    margin: 0 3px; /* Even smaller margin on smaller screens */
+  }
+
+  .App-link {
+    font-size: 0.8em; /* Smaller font size on smaller screens */
+  }
+}
